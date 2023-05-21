@@ -1,0 +1,61 @@
+
+	@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	* {
+		margin: 0px;
+		word-break: keep-all;
+		line-height: 1.5;
+		font-family: 'KCC-Ganpan';
+	}
+
+	header {
+		margin: 100px auto;
+		margin-top: 100px;
+		width: 50% ;
+		text-align: center;
+	}
+	header img {
+		width: 300px;
+	}
+	header p {
+		margin-top: 200px;
+	}
+	nav {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+	}
+	nav a {
+		text-align: left;
+		text-decoration: none;
+		color: brown;
+	}
+
+	main {
+		margin-left: 20px;
+		margin-top: 200px;
+		width: 80%;
+	}
+
+	details {
+		margin: 20px;
+	}
+
+	details img {
+		width: 200px;
+	}
+
+	#Writing details img {
+		width: 90%;
+	}
+
+	footer {
+		margin: 50px;
+	}
+
+
