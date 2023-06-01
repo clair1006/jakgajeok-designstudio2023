@@ -22,11 +22,12 @@
 		nav ul {
 			position: fixed;
 			top: 0;
-			right: 3%;
+			left: 1%;
+			right: 1%;
 			background-color: white;
 			list-style-type: none;
-			padding:5px;
-			margin:0;
+			padding:2px;
+			margin:0px;
 			display: flex;
 			justify-content: center;
 			flex-wrap:wrap;
@@ -34,12 +35,12 @@
 		}
 
 		nav li {
-			margin-right: 10px;
+			margin-right: 5px;
 			display: flex;
 		}
 
 		header p {
-			font-size: 12px;
+			font-size: 16px;
 		}
 
 		main h2 {
@@ -47,12 +48,13 @@
 		}
 
 
+
 		h4 {
-			font-size:13px;
+			font-size:16px;
 		}
 
 		p {
-			font-size: 12px;
+			font-size: 16px;
 		}
 
 		figure {
@@ -110,7 +112,7 @@
 	nav {
 		position: fixed;
 		top: 50px;
-		right: 3%;
+		right: 2%;
 		font-size: 16px;
 		background-color: white;
 	}
@@ -130,20 +132,29 @@
 
 
 	main {
-		margin-left: 7%;
+		margin-left: 6%;
 		margin-top: 150px;
 		margin-bottom: 50px;
 		width: 77%;
 	}
 
 	main p {
-		margin-bottom: 70px;
+		margin-bottom: 40px;
 	}
 
 
 	#character h1 {
 		font-size: 30px;
 		margin-top: 30px;
+	}
+
+	#Origins a {
+		text-align: left;
+		text-decoration: none;
+		background-color: black;
+		color: white;
+		padding: 2px;
+		border-radius: 10px;
 	}
 
 
@@ -173,6 +184,15 @@
 
 	footer {
 		margin: 50px;
+	}
+
+	footer a {
+		text-align: left;
+		text-decoration: none;
+		background-color: black;
+		color: white;
+		padding: 2px;
+		border-radius: 10px;
 	}
 
 
